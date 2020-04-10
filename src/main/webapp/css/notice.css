@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {margin : 0;}
+
+#main {min-height : 100vh;}
+			  
+
+
+#section {
+		padding-top : 20px;
+		font-size : 18px;
+		letter-spacing : -1px;
+		font-weight : bold;				
+}
+
+.notice-inform {
+		margin-bottom : 20px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-bottom-width : 1px;
+  border-bottom-color : #bbbaba;
+  border-bottom-style : solid;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-weight : bold;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #bbbaba; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+		
+
+
