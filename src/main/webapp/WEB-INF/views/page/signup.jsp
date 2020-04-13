@@ -62,7 +62,7 @@
 				</div>
 			</div>
 			<div class = "table-F">
-				<button class="signup-comp">가입 완료하기</button>
+				<a href="/login"><button class="signup-comp">가입 완료하기</button></a>
 			</div>
 		</div>
 	</div>

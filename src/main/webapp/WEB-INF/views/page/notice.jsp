@@ -16,19 +16,29 @@
 					※전시 일정 변경, 휴관일 변경 등 공지가 있을 시 이곳에 공지됩니다. <br>
 					※기타 고객문의는 이메일(TheForte@arts.com)로 연락주시기 바랍니다.
 		</div>
-		<button class="accordion">코로나19로 인한 전시 일정 변경 안내</button>
+		
+		<button class = "ntc-newbtn">새 글 쓰기</button>
+		
+		
+		<div class = "accordionlist">
+			<button class="accordion">코로나19로 인한 전시 일정 변경 안내</button>
 			<div class="panel">
-			  <p>
+			  <p class = "ntcmain">
 			  	<br>정부의 '사회적 거리두기' 대책에 동참하고자 부득이하게 일부 전시 일정을 연기합니다.
 			  	<br>
 			  	<br>-2020.04.08(수) 이후의 모든 전시가 취소 또는 연기됩니다.(정확한 일정은 추후 공지)
 			  	<br>-환불을 원하시는 고객님께서는 TheForte@arts.com 으로 이름과 구매내역을 캡쳐해서 보내주시기 바랍니다. 
 			  </p>
+			  <textarea style="width:100%;" rows="10"></textarea>
+			  <div class = "div-btns">
+			  	<button class = "ntc-modifybtn">수정하기</button>
+			  	<button class = "ntc-delbtn">삭제하기</button>
+			  </div>
 			</div>
 			
 			<button class="accordion">'어린이 미술아카데미' 운영 안내</button>
 			<div class="panel">
-			  <p>
+			  <p class = "ntcmain">
 			  	<br>The Forte에서는 어린이들의 예술적 꿈을 마음껏 펼칠 수 있는 시간을 마련하고자 매년 '어린이 미술아카데미' 일정을 운영하고 있습니다.
 			  	<br>
 			  	<br>
@@ -46,16 +56,24 @@
 			  	<br>	- 010-1234-9876
 			  	<br>	- TheForte@arts.com
 			  	<br>	
-			  	<br>여러분들의 많은 지원 바랍니다.
-			  		
-			  	  
+			  	<br>여러분들의 많은 지원 바랍니다.  	  
 			  </p>
-			</div>
+			  <textarea style="width:100%;" rows="10"></textarea>
+			  <button class = "ntc-modifybtn">수정하기</button>
+			  <button class = "ntc-delbtn">삭제하기</button>
+			</div>	
 			
-			<button class="accordion">Section 3</button>
+			<button class="accordion">Test</button>
 			<div class="panel">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			  <p class = "ntcmain">
+			  	<br>Test
+			  </p>
+			  <textarea style="width:100%;" rows="10"></textarea>
+			  <button class = "ntc-modifybtn">수정하기</button>
+			  <button class = "ntc-delbtn">삭제하기</button>
 			</div>
+		</div>
+		
 			
 	</div>
 	

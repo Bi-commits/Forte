@@ -107,7 +107,6 @@ a {text-decoration: none;
 	border-bottom-width: 3px;
 	border-bottom-color : #8c8c8c;
 	color : #0a0a0a;
-	margin-bottom : 27px;
 }
 		  
 .navi {
@@ -134,19 +133,7 @@ a {text-decoration: none;
 	
 	}
 	
-.ver-selected {
-	margin-top : 15px;
-	margin-bottom : 15px;
-	font-size : 20px;
-	font-weight : bold;
-	color : #432c10;
-	margin-left: 20px;
-	background-color : #bbbaba;
-	letter-spacing: -1px;
-	padding-left : 5px;
-	
-	
-	}
+
 			  
 #mainpage {width : 1400px;
 	   		float : right;

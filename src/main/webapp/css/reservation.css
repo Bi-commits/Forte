@@ -19,6 +19,10 @@ body {margin : 0;}
 		margin-bottom : 20px;
 }
 
+.redcolor {
+		color : red;
+}
+
 .exh-list {
 		width : calc(50% - 100px);
 		height : 199px;
@@ -61,6 +65,24 @@ body {margin : 0;}
 		 background-color : #94661c;
 		 margin : 15px 40px 15px 20px;
 		 width : 100px;
+		 height : 50px;
+		 color : white;
+		 font-weight : bold;
+		 font-size : 17px;
+		 cursor : pointer;
+}
+
+.reg-staffonly {
+		text-align : center;
+		margin-left : auto;
+		margin-right : auto;
+}
+
+.regbtn {
+		 border-width : 0;
+		 background-color : #94661c;
+		 margin : 115px 15px;
+		 width : 200px;
 		 height : 50px;
 		 color : white;
 		 font-weight : bold;

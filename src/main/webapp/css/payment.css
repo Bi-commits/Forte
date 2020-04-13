@@ -13,45 +13,27 @@ body {margin : 0;}
 		font-weight : bold;	
 }
 
+/* 맨위 안내부분 */
 .pay-inform {
 		width : 100%;
 		margin-bottom : 20px;
 		float : left;
 }
 
+.redcolor {
+		color : red;
+}
+
+/* 선택한 전시 div */
 .pay-list {
 		width : calc(50% - 100.5px);
 		height : 200px;
 		float : left;
 		margin-left : 50px;
 		padding-right : 50px;
-		border-width : 0px 0.5px 0.5px 0px;
+		border-width : 0px 1px 1px 0px;
 		border-color : #8c8c8c;
 		border-style : dashed;
-}
-
-.pay-price {
-		width : calc(25% - 50.5px);
-		height : 200px;
-		float : left;
-		padding-left : 50px;
-		border-width : 0px 0px 0.5px 0.5px;
-		border-color : #8c8c8c;
-		border-style : dashed;
-}
-
-.pay-ageinfo {
-		width : calc(25% - 50.5px);
-		height : 200px;
-		float : left;
-		margin-right : 50px;
-		border-width : 0px 0px 0.5px 0px;
-		border-color : #8c8c8c;
-		border-style : dashed;
-		background-color : #bbbaba;
-		text-align : center;
-		
-		
 }
 
 .pay-image {
@@ -74,29 +56,47 @@ body {margin : 0;}
 		float : right;
 }
 
-.pay-dinfo {
+/* 전시회의 가격 */
+.pay-price {
+		width : calc(25% - 50.5px);
+		height : 200px;
+		float : left;
+		padding-left : 50px;
+		border-width : 0px 0px 1px 0px;
+		border-color : #8c8c8c;
+		border-style : dashed;
+}
+
+/* 연령별 요금적용 안내(고정) */
+.pay-ageinfo {
+		width : calc(25% - 50.5px);
+		height : 200px;
+		float : left;
+		margin-right : 50px;
+		border-width : 0px 0px 0.5px 0px;
+		border-color : #8c8c8c;
+		border-style : dashed;
+		background-color : #bbbaba;
+		text-align : center;
+		
+		
+}
+
+/* 결제창(카드번호) */
+
+
+.pay-card {
 		width : calc(50% - 100.5px);
+		height : 400px;
 		float : left;
 		margin-left : 50px;
 		padding-right : 50px;
-		border-width : 0.5px 0.5px 0px 0px;
+		border-width : 0px 1px 1px 0px;
 		border-color : #8c8c8c;
 		border-style : dashed;
 }
 
-.pay-cash {
-		width : calc(50% - 100.5px);
-		float : left;
-		padding-left : 50px;
-		margin-right : 50px;
-		border-width : 0.5px 0px 0px 0.5px;
-		border-color : #8c8c8c;
-		border-style : dashed;
-}
-
-
-
-.pay-box-F {
+.card-box-F {
 		width : 100%;
 		height : 79px;
 		margin-left : auto;
@@ -106,7 +106,7 @@ body {margin : 0;}
 		border-style : solid;		
 }
 
-.pay-box {
+.card-box {
 		width : 100%;
 		height : 79px;
 		margin-left : auto;
@@ -116,7 +116,7 @@ body {margin : 0;}
 		border-style : solid;		
 }
 
-.pay-box-L {
+.card-box-L {
 		width : 20%;
 		height : 79px;
 		float : left;
@@ -125,7 +125,7 @@ body {margin : 0;}
 		background-color : #bbbaba;
 }
 
-.pay-box-R {
+.card-box-R {
 		width : calc(80% - 20px);
 		height : 79px;
 		float : left;
@@ -133,7 +133,74 @@ body {margin : 0;}
 		line-height : 79px;
 }
 
-.paybtn {
+.cardname {
+		border-width : 1px;
+		border-style : solid;
+		border-color : #8c8c8c;
+		padding-left : 15px;
+}
+
+.card-input {
+		border-width : 1px;
+		border-style : solid;
+		border-color : #8c8c8c;
+		padding-left : 15px;
+}
+
+
+
+/* 결제창(인원수) */
+.pay-cash {
+		width : calc(50% - 100.5px);
+		height : 400px;
+		float : left;
+		padding-left : 50px;
+		margin-right : 50px;
+		border-width : 0px 0px 1px 0px;
+		border-color : #8c8c8c;
+		border-style : dashed;
+}
+
+
+
+.cash-box-F {
+		width : 100%;
+		height : 79px;
+		margin-left : auto;
+		margin-right : auto;
+		border-width : 1px 0px 1px 0;
+		border-color : #8c8c8c;
+		border-style : solid;		
+}
+
+.cash-box {
+		width : 100%;
+		height : 79px;
+		margin-left : auto;
+		margin-right : auto;
+		border-width : 0 0px 1px 0;
+		border-color : #8c8c8c;
+		border-style : solid;		
+}
+
+.cash-box-L {
+		width : 20%;
+		height : 79px;
+		float : left;
+		line-height : 80px;
+		text-align : center;
+		background-color : #bbbaba;
+}
+
+.cash-box-R {
+		width : calc(80% - 20px);
+		height : 79px;
+		float : left;
+		padding-left : 20px;
+		line-height : 79px;
+}
+
+.cashbtn {
 		width : 33px;
 		height : 33px;
 		margin : 0 17px;
@@ -144,7 +211,7 @@ body {margin : 0;}
 		font-size : 25px;
 }
 
-.paybtn-r {
+.cashbtn-r {
 		width : 66px;
 		height : 33px;
 		margin : 0 17px;
@@ -165,6 +232,15 @@ body {margin : 0;}
 		margin-top : 30px;
 }
 
+/* 상세정보(dinfo) */
+.pay-dinfo {
+		width : calc(100% - 100.5px);
+		float : left;
+		margin-left : 50px;
+		margin-right : 50px;
+}
+
+/* 하단부 버튼 2개 */
 .pay-btn {
 		width : 100%;
 		margin-top : 75px;
@@ -175,6 +251,10 @@ body {margin : 0;}
 		margin-left : auto;
 		margin-right : auto;
 }
+
+
+
+
 .rsvbtn {
 		 border-width : 0;
 		 background-color : #94661c;

@@ -8,7 +8,8 @@
 		<div class = "header-logo-part">
 	 		<a href="/"><img alt="img" src="/css/img/mainlogo-header.png"></a>
 		</div> 
-		<!-- 로그인을 하지 않았을 경우 -->		  
+		<!-- 로그인을 하지 않았을 경우 -->	
+			  
 		<div class = "login-not">
 			<div class = "headline">
 				<span class = "hl-left"> The Forte </span><br><span class = "hl-right">방문을 환영합니다.</span><br><br>
@@ -19,6 +20,7 @@
 				</div>
 			</div>
 		</div>
+		
 		
 		<!-- 로그인을 성공하였을 경우 -->
 		<!--

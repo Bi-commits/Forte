@@ -9,9 +9,8 @@
 	<div class = "navi">
 		<div class = "ver"><a href="/">HOME</a></div>
 		<div class = "ver"><a href="/reservation">예약</a></div>
-		<div class = "ver">예약내역 확인</div>
-<!-- 				<div class = "ver">문의게시판</div> -->
-		<div class = "ver">공지사항</div>
+		<div class = "ver"><a href="/check">예약내역 확인</a></div>
+		<div class = "ver"><a href="/noticeboard">공지사항</a></div>
 		<div class = "ver"><a href="/manners">관람예절</a></div>
 	</div>
 </body>
