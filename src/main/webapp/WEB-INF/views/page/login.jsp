@@ -23,9 +23,9 @@
 				
 			</div>
 			<div id = "L-bottom">
-				<button id = "L-bottom-1" class = "bottombtn"> 로그인 </button>
+				<a href="/"><button id = "L-bottom-1" class = "bottombtn"> 로그인 </button></a>
 				
-				<button id = "L-bottom-2" class = "bottombtn"> 회원가입 </button>
+				<a href="/signup"><button id = "L-bottom-2" class = "bottombtn"> 회원가입 </button></a>
 			</div>
 		</div>
 		<div id = "div-R">

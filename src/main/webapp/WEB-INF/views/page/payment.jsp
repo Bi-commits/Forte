@@ -43,9 +43,9 @@ function removeChar(event) {
 				※이에 따라 18시 이후부터는 입장이 불가합니다. 이 점 숙지하시기 바랍니다.<br>
 				※매주 월요일은 휴관일입니다.<br>
 				※예매 후 관람 기간 내에 1F 로비 앞 안내데스크에서 본인 일치여부를 확인받은 후 티켓을 지급해드립니다. <br>
-				※예매는 전시 첫 날부터 마지막 날까지 자유롭게 가능하나 <span class = "redcolor">정해진 기간 내에 관람하지 못한 경우 티켓 값은 절대 환불되지 않으니</span> 주의하시기 바랍니다. <br>
-				※당일 관람을 원하시는 경우 현장에서 티켓을 구입하시면 됩니다.(1F 로비 앞 안내데스크) <br>
-				※이에 따라 <span class = "redcolor"> 당일 예약은 불가</span>하오니 이점 숙지하시기 바랍니다. <br>
+				※예매는 <span class = "redcolor">전시 첫 날부터 마지막 날까지</span> 자유롭게 가능합니다. <br>
+				※<span class = "redcolor">정해진 기간 내에 관람하지 못한 경우 티켓 값은 절대 환불되지 않으니</span> 주의하시기 바랍니다. <br>
+				※당일 관람을 원하시는 경우에 한하여 현장에서 티켓을 판매하고 있습니다.(1F 로비 앞 안내데스크) <br>
 				※기타 고객문의는 이메일(TheForte@arts.com)로 연락주시기 바랍니다.
 		</div>
 		
@@ -104,8 +104,8 @@ function removeChar(event) {
 			<div class = "card-box">
 				<div class = "card-box-L">유효기간</div>
 				<div class = "card-box-R">
-					<input type="text" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' maxlength="2" style="width:45%;height:30px;font-size:14pt" class="card-input" name="card-input3-A" placeholder="YEAR">
-					<input type="text" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' maxlength="2" style="width:45%;height:30px;font-size:14pt" class="card-input" name="card-input3-B" placeholder="MONTH" >
+					<input type="text" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' maxlength="2" style="width:45%;height:30px;font-size:14pt" class="card-input" name="card-input3-A" placeholder="YEAR(년)">
+					<input type="text" onkeydown='return onlyNumber(event)' onkeyup='removeChar(event)' maxlength="2" style="width:45%;height:30px;font-size:14pt" class="card-input" name="card-input3-B" placeholder="MONTH(월)" >
 				</div>
 			</div>
 			<br>

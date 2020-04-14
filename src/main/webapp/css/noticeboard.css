@@ -79,15 +79,16 @@ body {margin : 0;}
 }
 
 .div-btns {
-		text-align : center;
-		margin-left : auto;
-		margin-right : auto;
+		width : calc(100% - 100px);
+		text-align : right;
+		margin : 0 50px;
+		float : left;
 }
 
 .ntc-newbtn {
 		 border-width : 0;
 		 background-color : #94661c;
-		 margin : 15px 40px 15px 20px;
+		 margin : 15px 0px 15px 20px;
 		 width : 100px;
 		 height : 50px;
 		 color : white;

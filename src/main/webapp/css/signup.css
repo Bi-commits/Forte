@@ -2,7 +2,7 @@
 
 body {margin : 0;}
 
-#main {min-height : 100vh;}
+#main {min-height : 90vh;}
 
 .signup-inform {
 		font-size : 18px;
@@ -13,7 +13,7 @@ body {margin : 0;}
 		width : 50%;
 		margin-left : auto;
 		margin-right : auto;
-		margin-top : 100px;
+		margin-top : 50px;
 }
 		
 .table {

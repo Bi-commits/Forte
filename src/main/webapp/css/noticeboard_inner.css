@@ -2,7 +2,7 @@
 
 body {margin : 0;}
 
-#main {min-height : 110vh;}
+#main {min-height : 120vh;}
 
 
 #section {
@@ -16,6 +16,7 @@ body {margin : 0;}
 
 .ntctable-inner {
 		width : 75%;
+		height : 800px;
 		margin-left : auto;
 		margin-right : auto;
 }

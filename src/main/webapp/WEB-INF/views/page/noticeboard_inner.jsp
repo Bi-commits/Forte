@@ -26,6 +26,10 @@
 				<div class = "ntcin-L">작성일</div>
 				<div class = "ntcin-R">2020-04-11</div>
 			</div>
+			<div class = "innertable">
+				<div class = "ntcin-L">글제목</div>
+				<div class = "ntcin-R">'어린이 미술아카데미' 회원 모집 안내</div>
+			</div>
 			<div class = "innertable-T1">
 				<div class = "ntcin-M1">글내용</div>
 			</div>
@@ -48,9 +52,7 @@
 			  	<br>	- 010-1234-9876
 			  	<br>	- TheForte@arts.com
 			  	<br>	
-			  	<br>여러분들의 많은 지원 바랍니다.  
-			  	
-			  	
+			  	<br>여러분들의 많은 지원 바랍니다. 
 				</div>
 			</div>
 		</div>

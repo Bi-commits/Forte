@@ -21,7 +21,7 @@
 			<div class = "ntc-table-D">
 				<div class = "ntc-table-D-L">공지내용</div>
 				<div class = "ntc-table-D-R">
-					<textarea class = "register-input" style="width:calc(100% - 30px);font-size:14pt" rows="19"></textarea>
+					<textarea class = "register-input" style="width:calc(100% - 30px);font-size:14pt" rows="17"></textarea>
 				</div>
 			</div>
 			<div class = "ntc-table-F">

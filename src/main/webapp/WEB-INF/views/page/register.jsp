@@ -45,6 +45,7 @@
 				<div class = "table-L">사진 등록</div>
 				<div class = "table-R">
 					<button class = "imgbtn"> 사진 첨부 </button>
+					newexhibition.jpg
 				</div>
 			</div>
 			<div class = "table">
